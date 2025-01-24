@@ -1,0 +1,1 @@
+{"$message_type":"diagnostic","level":"warning","loc":{"path":"/Users/pro/Desktop/Moonbit/hello/src/main/moon.pkg.json","start":{"line":4,"col":5},"end":{"line":4,"col":25}},"message":"Warning: Unused package 'username/hello/lib'","error_code":1029}

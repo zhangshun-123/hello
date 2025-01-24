@@ -1,0 +1,82 @@
+{
+  "source_dir": "/Users/pro/Desktop/Moonbit/hello",
+  "name": "username/hello",
+  "packages": [
+    {
+      "is-main": false,
+      "is-third-party": false,
+      "root-path": "/Users/pro/Desktop/Moonbit/hello/src/lib",
+      "root": "username/hello",
+      "rel": "lib",
+      "files": {
+        "/Users/pro/Desktop/Moonbit/hello/src/lib/hello.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {
+        "/Users/pro/Desktop/Moonbit/hello/src/lib/hello_test.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "deps": [],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/pro/Desktop/Moonbit/hello/target/wasm-gc/release/check/lib/lib.mi"
+    },
+    {
+      "is-main": true,
+      "is-third-party": false,
+      "root-path": "/Users/pro/Desktop/Moonbit/hello/src/main",
+      "root": "username/hello",
+      "rel": "main",
+      "files": {
+        "/Users/pro/Desktop/Moonbit/hello/src/main/main.mbt": {
+          "backend": [
+            "Wasm",
+            "WasmGC",
+            "Js",
+            "Native"
+          ],
+          "optlevel": [
+            "Debug",
+            "Release"
+          ]
+        }
+      },
+      "wbtest-files": {},
+      "test-files": {},
+      "deps": [
+        {
+          "path": "username/hello/lib",
+          "alias": "lib"
+        }
+      ],
+      "wbtest-deps": [],
+      "test-deps": [],
+      "artifact": "/Users/pro/Desktop/Moonbit/hello/target/wasm-gc/release/check/main/main.mi"
+    }
+  ],
+  "deps": [],
+  "backend": "wasm-gc",
+  "opt_level": "release",
+  "source": "src"
+}
